@@ -6,7 +6,7 @@ USAGE:
 - Both theano and tensorflow backends are supported. However compile times are very high in theano, and tensorflow is highly recommended.
 - `train_frcnn.py` can be used to train a model. To train on Pascal VOC data, simply do:
 `python train_frcnn.py -p /path/to/pascalvoc/`. 
-- the Pascal VOC data set (images and annotations for bounding boxes around the classified objects) can be obtained from: http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
+- the Pascal VOC data set (images and annotations for bounding boxes around the classified objects) can be obtained from: http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar and also from http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar both must be extracted into the same path. So that there is one path to the VOC data followed by two subfolders, one for VOC2007 and one for VOC2012
 - simple_parser.py provides an alternative way to input data, using a text file. Simply provide a text file, with each
 line containing:
 
